@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import { conditions } from "@/content/conditions";
 import { faqs } from "@/content/faqs";
-import { services } from "@/content/services";
 import { site } from "@/content/site";
 import { team } from "@/content/team";
 import { JsonLd } from "@/components/json-ld";
@@ -15,7 +14,7 @@ import { HomeHero } from "@/components/sections/home-hero";
 import { IcbcBanner } from "@/components/sections/icbc-banner";
 import { InsurersStrip } from "@/components/sections/insurers-strip";
 import { RatingSummary, ReviewsGrid } from "@/components/sections/reviews";
-import { ServicesGrid } from "@/components/sections/services-grid";
+import { NewPatients } from "@/components/sections/new-patients";
 import { TeamGrid } from "@/components/sections/team-cards";
 import { VisitUs } from "@/components/sections/visit-us";
 import { ButtonLink } from "@/components/ui/button";
@@ -29,30 +28,8 @@ export default function HomePage() {
   return (
     <>
       <HomeHero />
+      <NewPatients />
       <InsurersStrip />
-
-      <Section aria-labelledby="services-title">
-        <Container>
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-            <SectionHeading
-              eyebrow="Our services"
-              id="services-title"
-              title={
-                <>
-                  Care that <em className="text-brand-700">revolves</em> around you
-                </>
-              }
-              description="Four complementary disciplines, one coordinated team. Choose a single therapy or let us combine them into a plan that fits your goals."
-            />
-            <ButtonLink href="/services" variant="secondary" className="self-start lg:self-auto">
-              All services <ArrowRight aria-hidden className="size-4" />
-            </ButtonLink>
-          </div>
-          <div className="mt-14">
-            <ServicesGrid services={services} />
-          </div>
-        </Container>
-      </Section>
 
       <Approach />
       <StatsBand />

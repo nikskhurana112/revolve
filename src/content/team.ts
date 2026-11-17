@@ -59,32 +59,6 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    slug: "caldwell-lever",
-    name: "Caldwell Lever",
-    shortName: "Caldwell",
-    role: "Registered Acupuncturist",
-    discipline: "acupuncture",
-    image: "/images/team/caldwell-lever.jpg",
-    imagePosition: "50% 20%",
-    summary:
-      "Compassionate, patient-centred care rooted in East Asian medicine, with a focus on digestive, immune and neurological health.",
-    bio: [
-      "Caldwell is a BC Registered Acupuncturist who provides compassionate, patient-centred care rooted in East Asian medicine. His clinical training includes work at Villa Cathay Care Home, where he treated complex and rare conditions under leading experts in the field.",
-      "His journey with East Asian medicine began in Tibet, where he was treated by the late Yeshe Dhonden, physician to the Dalai Lama — an experience that shaped his lifelong dedication to this medicine.",
-      "Caldwell values clear communication and helps patients understand their health so they can take an active, confident role in their healing.",
-    ],
-    focus: [
-      "Digestive health",
-      "Immune regulation & inflammation",
-      "Nervous system support",
-      "Insomnia & stress",
-      "Post-cancer recovery",
-      "Multiple Sclerosis",
-      "Trigeminal Neuralgia",
-    ],
-    modalities: ["Superficial needling", "Cupping", "Gua sha", "Moxibustion"],
-  },
-  {
     slug: "martin-pan",
     name: "Martin Pan",
     shortName: "Martin",
@@ -100,23 +74,6 @@ export const team: TeamMember[] = [
       "He enjoys practicing mixed martial arts and a round of golf in his free time.",
     ],
     focus: ["Proprioceptive Neuromuscular Facilitation (PNF)", "Deep tissue work"],
-  },
-  {
-    slug: "justin-chu",
-    name: "Justin Chu",
-    shortName: "Justin",
-    role: "Registered Massage Therapist",
-    credentials: "RMT, BKin",
-    discipline: "massage",
-    image: "/images/team/justin-chu.jpg",
-    imagePosition: "50% 25%",
-    summary:
-      "A former kinesiologist who helps athletes, office workers and labourers reach their rehabilitation and recovery goals.",
-    bio: [
-      "Justin is a Registered Massage Therapist who completed his training at Langara College. With a bachelor's in kinesiology and a certificate in ergonomics, Justin worked extensively with athletes, office workers and general labourers towards their rehabilitation and recovery goals as a practicing kinesiologist before becoming an RMT.",
-      "Justin found his interest in the human body as a teenager training for track and field, powerlifting and Olympic weightlifting. Today he enjoys hiking and badminton, and believes a happy lifestyle comes from a fine balance of good physical and mental health.",
-    ],
-    focus: ["Rehabilitation & recovery", "Athletes", "Ergonomics & desk-related tension"],
   },
   {
     slug: "anu-patel",

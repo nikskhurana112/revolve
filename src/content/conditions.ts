@@ -50,12 +50,12 @@ export const conditions: Condition[] = [
       },
     ],
     services: ["acupuncture"],
-    practitioners: ["jessie-li", "caldwell-lever"],
+    practitioners: ["jessie-li"],
     featuredStory: true,
     meta: {
       title: "Bell's Palsy Acupuncture Treatment in Vancouver",
       description:
-        "Acupuncture for Bell's Palsy in Vancouver. Read a patient's recovery story and book a free consultation with our registered acupuncturists.",
+        "Acupuncture for Bell's Palsy in Vancouver. Read a patient's recovery story and book a free consultation with our registered acupuncturist.",
     },
   },
   {
@@ -166,7 +166,7 @@ export const conditions: Condition[] = [
       },
     ],
     services: ["acupuncture", "massage-therapy"],
-    practitioners: ["jessie-li", "martin-pan", "justin-chu"],
+    practitioners: ["jessie-li", "martin-pan"],
     meta: {
       title: "Chronic Pain Relief in Vancouver | Acupuncture & Massage",
       description:

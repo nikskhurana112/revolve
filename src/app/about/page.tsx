@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 export const metadata = pageMetadata({
   title: "About Us & Our Team",
   description:
-    "Meet the registered acupuncturists, massage therapists and counsellor at Revolve Therapy Health Services in Vancouver.",
+    "Meet the registered acupuncturist, massage therapist and counsellor at Revolve Therapy Health Services in Vancouver.",
   path: "/about",
 });
 

@@ -51,7 +51,7 @@ export default function CareersPage() {
             <div className="prose-rt mt-8">
               <p>
                 We&apos;re looking for a passionate and caring RMT to join our friendly clinic environment. You&apos;ll
-                work alongside registered acupuncturists, a TCM practitioner and a counsellor, with the support of a
+                work alongside a registered acupuncturist and TCM practitioner, and a counsellor, with the support of a
                 team that values patient-centred care.
               </p>
             </div>

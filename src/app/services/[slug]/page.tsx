@@ -12,6 +12,7 @@ import { CounsellingConsult, CtaBand } from "@/components/sections/cta-band";
 import { FaqList, faqSchema } from "@/components/sections/faq";
 import { FeaturedStory } from "@/components/sections/featured-story";
 import { IcbcBanner } from "@/components/sections/icbc-banner";
+import { MassageFirstVisit } from "@/components/sections/massage-first-visit";
 import { PageHero } from "@/components/sections/page-hero";
 import { PractitionerCard, PractitionerRow } from "@/components/sections/team-cards";
 import { ButtonLink } from "@/components/ui/button";
@@ -55,6 +56,7 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
   const conditions = getConditions(service.conditions);
   const pageFaqs = faqs.filter((f) => relatedFaqs[slug]?.includes(f.question));
   const isCounselling = slug === "counselling";
+  const isMassage = slug === "massage-therapy";
 
   return (
     <>
@@ -70,8 +72,8 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
         imageAlt={service.imageAlt}
         actions={
           <>
-            <ButtonLink href={service.bookingUrl} size="lg">
-              {service.bookingLabel}
+            <ButtonLink href={isMassage ? "#first-visit" : service.bookingUrl} size="lg">
+              {isMassage ? "Plan your first visit" : service.bookingLabel}
             </ButtonLink>
             <ButtonLink href={site.phone.href} variant="secondary" size="lg">
               <Phone aria-hidden className="size-4" />
@@ -80,6 +82,8 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
           </>
         }
       />
+
+      {isMassage && <MassageFirstVisit />}
 
       <Section className="bg-white">
         <Container className="grid gap-14 lg:grid-cols-12">

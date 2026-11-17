@@ -53,12 +53,12 @@ export const services: Service[] = [
     eyebrow: "RMT in Vancouver",
     blurb: "Deep tissue, myofascial release, Swedish & PNF",
     summary:
-      "Our registered massage therapists use an evidence-based approach to assess and treat a wide range of conditions, specializing in manual lymph drainage, trigger point release and myofascial release.",
+      "Book with Martin Pan, Registered Massage Therapist, at our Fairview clinic across from Vancouver General Hospital.",
     image: "/images/massage-hands.jpg",
     imageAlt: "Registered massage therapist working on a client's lower back",
     cardImage: "/images/massage-back.jpg",
     intro: [
-      "With decades of combined knowledge, the team at Revolve Therapy uses a range of modalities to address everything from chronic tension to sports recovery.",
+      "Martin uses a range of techniques to address everything from chronic tension to sports recovery.",
       "Massage therapy has been shown to increase circulation, manage stress, reduce pain and improve range of motion — and the emotional benefits are just as real. Whether you're looking for a relaxation massage or a deep pressure session, your treatment is tailored to what your body needs that day.",
     ],
     techniquesTitle: "Our massage therapy modalities",
@@ -109,14 +109,14 @@ export const services: Service[] = [
       "Increases circulation",
       "Supports injury recovery",
     ],
-    practitioners: ["martin-pan", "justin-chu"],
+    practitioners: ["martin-pan"],
     conditions: ["chronic-pain"],
-    bookingUrl: site.booking.main,
-    bookingLabel: "Book a massage",
+    bookingUrl: site.booking.massageWithMartin,
+    bookingLabel: "See times with Martin",
     meta: {
       title: "Registered Massage Therapy (RMT) in Vancouver",
       description:
-        "Registered massage therapy near VGH in Vancouver: deep tissue, myofascial release, Swedish, PNF and lymphatic drainage. Direct billing to most insurers.",
+        "Book registered massage therapy with Martin Pan in Fairview, Vancouver, across from VGH. See first-visit options and details on direct billing and parking.",
     },
   },
   {
@@ -127,13 +127,13 @@ export const services: Service[] = [
     eyebrow: "Acupuncture in Vancouver",
     blurb: "Needling, cupping, gua sha & moxibustion",
     summary:
-      "Acupuncture and traditional Chinese techniques encourage the natural flow within your body. Our registered acupuncturists have a particular focus on Bell's Palsy, chronic pain and eczema.",
+      "Acupuncture and traditional Chinese techniques encourage the natural flow within your body. Our registered acupuncturist has a particular focus on Bell's palsy, chronic pain and eczema.",
     image: "/images/acupuncture-back.jpg",
     imageAlt: "Fine acupuncture needles placed along a patient's back",
     cardImage: "/images/acupuncture-hands.jpg",
     intro: [
       "Acupuncture is an ancient therapeutic practice that involves the gentle insertion of very thin needles into specific points on the body. It aims to stimulate the body's natural healing processes and restore balance — encouraging the flow of vital energy, or qi.",
-      "Our registered acupuncturists combine needling with complementary Traditional Chinese Medicine techniques, tailoring every treatment to your condition and how you're feeling that day.",
+      "Our registered acupuncturist combines needling with complementary Traditional Chinese Medicine techniques, tailoring every treatment to your condition and how you're feeling that day.",
     ],
     techniquesTitle: "Techniques we offer",
     techniques: [
@@ -182,7 +182,7 @@ export const services: Service[] = [
       "Allergy relief",
       "Hormonal balance",
     ],
-    practitioners: ["jessie-li", "caldwell-lever"],
+    practitioners: ["jessie-li"],
     conditions: ["bells-palsy", "chronic-pain", "eczema", "psoriasis"],
     bookingUrl: site.booking.main,
     bookingLabel: "Book acupuncture",
@@ -190,7 +190,7 @@ export const services: Service[] = [
     meta: {
       title: "Acupuncture & Traditional Chinese Medicine in Vancouver",
       description:
-        "Registered acupuncturists in Vancouver offering acupuncture, cupping, gua sha and moxibustion. ICBC claims eligible for 12 free sessions. Direct billing available.",
+        "Registered acupuncture in Vancouver with acupuncture, cupping, gua sha and moxibustion. ICBC claims eligible for 12 free sessions. Direct billing available.",
     },
   },
   {

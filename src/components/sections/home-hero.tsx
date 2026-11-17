@@ -54,8 +54,8 @@ export function HomeHero() {
             <ButtonLink href={site.booking.main} size="lg">
               Book an appointment
             </ButtonLink>
-            <ButtonLink href="/services" variant="secondary" size="lg">
-              Explore services
+            <ButtonLink href="#new-patients" variant="secondary" size="lg">
+              New patients start here
               <ArrowRight aria-hidden className="size-4" />
             </ButtonLink>
           </div>
@@ -136,7 +136,7 @@ export function HomeHero() {
               ))}
             </div>
             <p className="text-sm leading-tight">
-              <strong className="block font-semibold text-ink">{team.length} registered</strong>
+              <strong className="block font-semibold text-ink">Registered</strong>
               <span className="text-muted">practitioners</span>
             </p>
           </div>

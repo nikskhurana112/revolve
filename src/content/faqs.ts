@@ -6,7 +6,7 @@ export const faqs: Faq[] = [
   {
     question: "Does acupuncture hurt?",
     answer: [
-      "It's a common misconception that acupuncture is very painful — it isn't. Our acupuncturists are highly skilled in the placement of needles, both in location and pressure, and we offer gentle styles such as superficial needling if you're new or sensitive. Just let us know your preferences.",
+      "It's a common misconception that acupuncture is very painful — it isn't. Our acupuncturist adjusts needle placement and pressure and offers gentle styles such as superficial needling if you're new or sensitive. Just let us know your preferences.",
     ],
   },
   {

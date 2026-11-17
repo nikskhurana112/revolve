@@ -34,6 +34,8 @@ export const site = {
   booking: {
     main: "https://revolvetherapy.janeapp.com/",
     practitioners: "https://revolvetherapy.janeapp.com/#/list",
+    massageWithMartin: "https://revolvetherapy.janeapp.com/#/staff_member/1",
+    initialAcupuncture: "https://revolvetherapy.janeapp.com/#/staff_member/12/treatment/83",
     counsellingConsult: "https://revolvetherapy.janeapp.com/#/staff_member/15/treatment/87",
   },
 

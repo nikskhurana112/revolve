@@ -132,7 +132,7 @@ export default async function PostPage({ params }: PageProps<"/blog/[slug]">) {
       <CtaBand
         className="pb-20"
         title="Curious whether acupuncture can help you?"
-        text="Book a consultation with one of our registered acupuncturists."
+        text="Book a consultation with our registered acupuncturist."
         primary={{ label: "Book acupuncture", href: site.booking.main }}
       />
 
