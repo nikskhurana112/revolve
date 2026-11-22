@@ -1,25 +1,26 @@
 import Image from "next/image";
-import { ClipboardList, Ear, RefreshCw } from "lucide-react";
+import { Leaf, Puzzle, Stethoscope } from "lucide-react";
 import { insurers } from "@/content/insurers";
 import { services } from "@/content/services";
 import { site } from "@/content/site";
 import { Container, Orbits, Section, SectionHeading } from "@/components/ui/primitives";
 
-const steps = [
+// Not steps: the first-visit steps live in the "New to Revolve Therapy?" section.
+const pillars = [
   {
-    icon: Ear,
-    title: "Listen & assess",
-    text: "Every first visit starts with your history, your goals and your preferences — so treatment fits you, not a template.",
+    icon: Stethoscope,
+    title: "Western, evidence-based care",
+    text: "Registered massage therapy and counselling, grounded in clinical assessment and current research.",
   },
   {
-    icon: ClipboardList,
-    title: "Build your plan",
-    text: "We draw on evidence-based Western techniques and Traditional Chinese Medicine to design a plan that may combine therapies.",
+    icon: Leaf,
+    title: "Eastern traditions",
+    text: "Acupuncture and Traditional Chinese Medicine, including herbal medicine and cupping, look at your health as a whole.",
   },
   {
-    icon: RefreshCw,
-    title: "Treat, track & adjust",
-    text: "Each session is tailored to how you're feeling that day, and your plan evolves as you progress.",
+    icon: Puzzle,
+    title: "Combined when it helps",
+    text: "With four disciplines under one roof, your care can bring therapies together, such as massage alongside acupuncture, without going between clinics.",
   },
 ];
 
@@ -50,22 +51,19 @@ export function Approach() {
             }
             description="Revolve Therapy brings registered massage therapy, acupuncture, Traditional Chinese Medicine and counselling under one roof — so your care is coordinated, not fragmented."
           />
-          <ol className="mt-10 space-y-6">
-            {steps.map((step, i) => (
-              <li key={step.title} className="reveal flex gap-5">
-                <span className="relative grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-brand-700 shadow-soft ring-1 ring-line">
-                  <step.icon aria-hidden className="size-5" />
-                  <span className="absolute -top-2 -right-2 grid size-6 place-items-center rounded-full bg-lime-400 text-xs font-semibold text-ink">
-                    {i + 1}
-                  </span>
+          <ul className="mt-10 space-y-6">
+            {pillars.map((pillar) => (
+              <li key={pillar.title} className="reveal flex gap-5">
+                <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-brand-700 shadow-soft ring-1 ring-line">
+                  <pillar.icon aria-hidden className="size-5" />
                 </span>
                 <div>
-                  <h3 className="font-sans text-lg font-semibold text-ink">{step.title}</h3>
-                  <p className="mt-1 leading-relaxed text-ink-soft">{step.text}</p>
+                  <h3 className="font-sans text-lg font-semibold text-ink">{pillar.title}</h3>
+                  <p className="mt-1 leading-relaxed text-ink-soft">{pillar.text}</p>
                 </div>
               </li>
             ))}
-          </ol>
+          </ul>
         </div>
       </Container>
     </Section>
