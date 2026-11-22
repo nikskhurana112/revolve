@@ -52,13 +52,12 @@ export const services: Service[] = [
     icon: HandHeart,
     eyebrow: "RMT in Vancouver",
     blurb: "Deep tissue, myofascial release, Swedish & PNF",
-    summary:
-      "Book with Martin Pan, Registered Massage Therapist, at our Fairview clinic across from Vancouver General Hospital.",
+    summary: "Book with a Registered Massage Therapist at our Fairview clinic across from Vancouver General Hospital.",
     image: "/images/massage-hands.jpg",
     imageAlt: "Registered massage therapist working on a client's lower back",
     cardImage: "/images/massage-back.jpg",
     intro: [
-      "Martin uses a range of techniques to address everything from chronic tension to sports recovery.",
+      "Our therapists use a range of techniques to address everything from chronic tension to sports recovery.",
       "Massage therapy has been shown to increase circulation, manage stress, reduce pain and improve range of motion — and the emotional benefits are just as real. Whether you're looking for a relaxation massage or a deep pressure session, your treatment is tailored to what your body needs that day.",
     ],
     techniquesTitle: "Our massage therapy modalities",
@@ -111,12 +110,12 @@ export const services: Service[] = [
     ],
     practitioners: ["martin-pan"],
     conditions: ["chronic-pain"],
-    bookingUrl: site.booking.massageWithMartin,
-    bookingLabel: "See times with Martin",
+    bookingUrl: site.booking.main,
+    bookingLabel: "Book massage therapy",
     meta: {
       title: "Registered Massage Therapy (RMT) in Vancouver",
       description:
-        "Book registered massage therapy with Martin Pan in Fairview, Vancouver, across from VGH. See first-visit options and details on direct billing and parking.",
+        "Book registered massage therapy in Fairview, Vancouver, across from VGH. See first-visit options and details on direct billing and parking.",
     },
   },
   {

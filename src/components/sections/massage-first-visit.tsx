@@ -5,7 +5,7 @@ import { Container, Section, SectionHeading } from "@/components/ui/primitives";
 const details = [
   {
     title: "What to expect",
-    text: "Martin starts by asking about your health history, goals and any areas of concern. He assesses the area and discusses the treatment and your pressure preferences with you.",
+    text: "Like every first visit at Revolve Therapy, your therapist reviews your health history, discusses your concerns and goals, does any assessments needed and builds a treatment plan with you, including the pressure you prefer.",
   },
   {
     title: "Session options",
@@ -39,7 +39,7 @@ export function MassageFirstVisit() {
           ))}
         </div>
         <div className="mt-5 flex flex-wrap gap-3">
-          <ButtonLink href={site.booking.massageWithMartin}>See times with Martin</ButtonLink>
+          <ButtonLink href={site.booking.main}>Book massage therapy</ButtonLink>
           <ButtonLink href={site.phone.href} variant="secondary">
             Call {site.phone.display}
           </ButtonLink>
